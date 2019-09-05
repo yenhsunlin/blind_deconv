@@ -1,5 +1,5 @@
-# Bayesian image process: Blind-deconvolution
-Thie repository includes the Bayesian blind-deconvolution scripts. One is in principle capable of using such script to re-focus the picture deteoriated by the motion blur without knowing the blur kerner in advance.
+# Bayesian image process: Blind-deconvolution (*experimental!!!*)
+Thie repository includes the *experimental* Bayesian blind-deconvolution scripts. One is in principle capable of using such script to re-focus the picture deteoriated by the motion blur without knowing the blur kerner in advance.
 
 Note that the motion blur kernel should be spatial invariant and contains no rotation. The scripts in this repository are experimental and case sensitive. Different pictures and blur kernels may require specific fine-tuning on the hyper parameters.
 
