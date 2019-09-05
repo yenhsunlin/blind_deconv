@@ -4,10 +4,11 @@ Thie repository includes the Bayesian blind-deconvolution scripts. One is in pri
 Note that the motion blur kernel should be spatial invariant and contains no rotation. The scripts in this repository are experimental and case sensitive. Different pictures and blur kernels may require specific fine-tuning on the hyper parameters.
 
 # Required packages
-To run these scripts, the followings packages are required:
+To run these scripts, the followings third-party packages are required:
 - `numpy`
 - `scipy`
 - `pypher`
+`pypher` is not included in the standard distribution (eg. anaconda) and can be installed via `pip`.
 
 ## Known issues
 The de-blurred result is also not promising and while imposing hyper-Laplacian norm *L<sub>p</sub>* (0<*p*<1) as the regularizer (penalty term), the `fsolve` in `scipy.optimize` module could fail to find the correct result. 
