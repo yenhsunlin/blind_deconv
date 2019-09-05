@@ -10,7 +10,7 @@ To run these scripts, the followings third-party packages are required:
 - `pypher`
 - `scipy`
 
-`pypher` is not included in the standard distribution (eg. anaconda) and can be installed via `pip`.
+Both `cv2` and `pypher` can be installed via `pip`.
 
 ## Known issues
 The de-blurred result is not promising in general and while imposing hyper-Laplacian norm *L<sub>p</sub>* (0<*p*<1) as the regularizer (penalty term), the `fsolve` in `scipy.optimize` module could fail to find the correct result. 
