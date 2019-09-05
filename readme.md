@@ -3,7 +3,7 @@ Thie repository includes the *experimental* Bayesian blind-deconvolution scripts
 
 Note that the motion blur kernel should be spatial invariant and contains no rotation. The scripts in this repository are experimental and case sensitive. Different pictures and blur kernels may require specific fine-tuning on the hyper parameters.
 
-# Required packages
+## Required packages
 To run these scripts, the followings third-party packages are required:
 - `numpy`
 - `scipy`
