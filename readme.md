@@ -1,7 +1,5 @@
-<script type="text/javascript" async
-src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js? 
-config=TeX-MML-AM_CHTML"
-</script>
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
+
 
 # Bayesian image process: Blind-deconvolution
 Thie repository includes the Bayesian blind-deconvolution scripts. One is in principle capable of using such script to re-focus the picture deteoriated by the motion blur without knowing the blur kerner in advance.
