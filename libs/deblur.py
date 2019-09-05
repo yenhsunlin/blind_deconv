@@ -9,9 +9,6 @@ def bayes_deblur(im, psf_size, maxiter=5, maxit_u = 5, maxit_h = 5, Lp = 0, psf=
     """
     Blind-deconvolution algorithm based on alternating MAP estimation with
     heavy-tailed priors.
-    This python version transcribes from J. Kotera et al.'s work, see
-    DOI: 10.1007/978-3-642-40246-3_8 for further details.
-    At this moment, this transcription supports Lp = 0 and 1 only.
     
     Input
     -----
