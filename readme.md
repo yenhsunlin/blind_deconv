@@ -5,9 +5,10 @@ Note that the motion blur kernel should be spatial invariant and contains no rot
 
 ## Required packages
 To run these scripts, the followings third-party packages are required:
+- `cv2`
 - `numpy`
-- `scipy`
 - `pypher`
+- `scipy`
 
 `pypher` is not included in the standard distribution (eg. anaconda) and can be installed via `pip`.
 
