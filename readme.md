@@ -8,6 +8,7 @@ To run these scripts, the followings third-party packages are required:
 - `numpy`
 - `scipy`
 - `pypher`
+
 `pypher` is not included in the standard distribution (eg. anaconda) and can be installed via `pip`.
 
 ## Known issues
