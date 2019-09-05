@@ -12,7 +12,7 @@ To run these scripts, the followings third-party packages are required:
 `pypher` is not included in the standard distribution (eg. anaconda) and can be installed via `pip`.
 
 ## Known issues
-The de-blurred result is also not promising and while imposing hyper-Laplacian norm *L<sub>p</sub>* (0<*p*<1) as the regularizer (penalty term), the `fsolve` in `scipy.optimize` module could fail to find the correct result. 
+The de-blurred result is not promising in general and while imposing hyper-Laplacian norm *L<sub>p</sub>* (0<*p*<1) as the regularizer (penalty term), the `fsolve` in `scipy.optimize` module could fail to find the correct result. 
 
 If you found any glitch while running these scripts, please contact via <a href='mailto:yenhsun@gate.sinica.edu.tw'>`yenhsun@gate.sinica.edu.tw`</a> or <a href='mailto:yenhsun@phys.ncku.edu.tw'>`yenhsun@phys.ncku.edu.tw`</a>, much thanks!
 
