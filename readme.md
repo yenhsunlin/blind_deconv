@@ -15,6 +15,9 @@ Both `cv2` and `pypher` can be installed via `pip`.
 ## Known issues
 The de-blurred result is not promising in general and while imposing hyper-Laplacian norm *L<sub>p</sub>* (0<*p*<1) as the regularizer (penalty term), the `fsolve` in `scipy.optimize` module could fail to find the correct result. 
 
+## Important notes!
+This blind-deconvolution scripts is just for fun and part of the core contents are transcribed from J. Kotera et al.'s work, see DOI: 10.1007/978-3-642-40246-3_8 for further details. If you have other purpose for commercial using or deploying into your own projects instead of fun-playing or academic research, pleas DO contact the original authors for permission! 
+
 If you found any glitch while running these scripts, please contact via <a href='mailto:yenhsun@gate.sinica.edu.tw'>`yenhsun@gate.sinica.edu.tw`</a> or <a href='mailto:yenhsun@phys.ncku.edu.tw'>`yenhsun@phys.ncku.edu.tw`</a>, much thanks!
 
 More about me @ <a href='https://sites.google.com/view/yenhsun' title='Google site'>*Google site*</a>.
